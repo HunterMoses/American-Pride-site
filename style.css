@@ -1,0 +1,73 @@
+
+body {
+    background: linear-gradient(#ba0606, #FFFF, #0731db);
+    background-repeat: repeat-y;
+    background-size: contain;
+    font-family: 'Courier New', Courier, monospace; 
+}
+#landing {
+   color:black;
+   border: 2px solid white;
+   text-align: center;
+   margin: 3rem;
+}
+.links {
+    color: white;
+    border: 1px solid white;
+    background-color: #0731db;
+    width: 100rem;
+    
+}
+#nav {
+    display: block;
+    border: 1px solid white;
+}
+#header {
+    font-size: 70px;
+}
+#list {
+    display: block;
+    list-style: none;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-right: 2.8rem;
+}  
+
+.intro {
+    margin: 3rem;
+    font-size: 18px;  
+}
+.i {
+    margin: 0 0 3rem 0;
+}
+ #heading{
+     font-size: 70px;
+ }
+ 
+ .page {
+    margin: 2rem 3rem 2rem 3rem;
+    font-size: 18px;  
+ }
+ .product {
+    margin: 2rem 3rem 2rem 3rem;
+    font-size: 18px;  
+ }
+ h2 {
+    font-weight: 100;
+ }
+ p {
+     margin: 3rem;
+ }
+ .boom {
+     color: white;
+ }
+ .boom:hover {
+    color: red;
+ }
+#here {
+    color: black;
+}
+ #here:hover {
+     color: blue;
+ }
